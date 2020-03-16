@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1976D2;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-brand{
+    background-color: #1976D2;
+    padding: 5px;
+    color: #FFFFFF;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.details
+{
+    padding-left: 10px;
+    background-color:#BBDEFB;
+    font-family: 'Bellota Text', cursive;
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.options{
+    font-family: 'Bellota Text', cursive;
+    color: #FFFFFF;
+    background-color:#2196F3;
+    padding: 10px;
+}
+
+.doggos{
+    padding: 10px;
+    background-color:#536DFE;
+}
+
+.half{
+    width: 50%;
+}
+
+.full{
+    width: 100%;
+}
+
+.random-dog{
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+
+  
+  .select-breed  {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    select-breed-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
+  .select-breed::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color:#1976D2;
+    pointer-events: none;
+  }
+  
+  .select-breed:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #1976D2;
+  }
+  
+  .select-breed select option {
+    padding: 30px;
+  }
+
+  .select-label{
+      font-size: 20px;
+  }
+
+  .add-doggo {
+    background-color: #1976D2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .random{
+      margin-top: 10px;
+  }
+
+  .add-button{
+        width: 35%;
+  }
